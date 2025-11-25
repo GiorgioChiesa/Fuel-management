@@ -1,7 +1,7 @@
 {
     "user":[
         {
-            "username":"Giorgio",
+            "username":"Gio",
             "password":"password123"
         },
         {
@@ -24,7 +24,7 @@
         "Kia",
         "Panda",
         "Stelvio",
-        "Roulotte"
+        "Rulotta"
     ],
     "sk_token":"Stellina",
     "appDownload":"app/app-placeholder.apk"
