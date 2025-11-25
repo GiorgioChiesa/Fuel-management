@@ -1,0 +1,31 @@
+{
+    "user":[
+        {
+            "username":"Giorgio",
+            "password":"password123"
+        },
+        {
+            "username":"Enrico",
+            "password":"securepass"
+        },
+        {
+            "username":"Mamma",
+            "password":"mypassword"
+        },{
+            "username":"Papà",
+            "password":"mypassword"
+        },{
+            "username":"Utente",
+            "password":"mypassword"
+        }
+    ],
+    "apiEndpoint":"https://script.google.com/macros/s/AKfycbxkWY9YEU3Ip_JN_Ag1zIZ3-8HaXaktTsW0nOyZOt0I3h_XqXS2gSbGPeGa21CQebwR/exec",
+    "macchine":[
+        "Kia",
+        "Panda",
+        "Stelvio",
+        "Roulotte"
+    ],
+    "sk_token":"Stellina",
+    "appDownload":"app/app-placeholder.apk"
+}
