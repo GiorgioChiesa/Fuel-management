@@ -24,7 +24,7 @@ $(function(){
       dataType: 'json',
       success: function(res){
         if(!res || !res.rows) return;
-        rows = res.rows;
+        rows = res.rows.reverse(); // most recent first
         console.log('Fetched rows', rows);
         //populateTable(rows);
         applyFilters(rows);
