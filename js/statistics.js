@@ -47,7 +47,7 @@ $(function(){
       tr.append('<td>'+ (r.km||'') +'</td>');
       tr.append('<td>'+ (r.eur||'') +'</td>');
       tr.append('<td>'+ (r.litri||'') +'</td>');
-      const eurpl = (typeof r.eur_per_l !== 'undefined' && r.eur_per_l !== null && !isNaN(r.eur_per_l)) ? parseFloat(r.eur_per_l).toFixed(3) : '';
+      const eurpl = (typeof r.eur_per_l !== 'undefined' && r.eur_per_l !== null && r.eur_per_l !== "" && !isNaN(r.eur_per_l)) ? parseFloat(r.eur_per_l).toFixed(3) : '';
       tr.append('<td>'+ eurpl +'</td>');
       tr.append('<td>'+ (r.benzina ? '<img src="img/benzina.png" class="table-png">' :'') +'</td>');
       // file column: if r.file is a url, render link
