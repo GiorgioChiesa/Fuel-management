@@ -10,16 +10,12 @@ while getopts "hm:" o; do
             m=${OPTARG};
             echo "Message = ${m}"
             ;;
-        *)
-            m="UpdateFile";
-            echo "Default value: UpdateFile"
-            ;;
     esac
 done
 shift $((OPTIND-1))
 
 if [ -z "${m}" ]; then
-    m="UpdateFile";
+    m="UpdateFiles";
 fi
 
 echo "Message = ${m}"
