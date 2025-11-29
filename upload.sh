@@ -8,7 +8,6 @@ while getopts "hm:" o; do
             ;;
         m)
             m=${OPTARG};
-            echo "Message = ${m}"
             ;;
     esac
 done
