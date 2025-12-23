@@ -124,9 +124,16 @@ $(function(){
     } else if($('#benzina').length){
       benzinaVal = $('#benzina').val();
     }
+    var database = '';
+    if (hasNote) {
+      database = 'Manutenzione';
+    } else {
+      database = 'database';
+    }
 
     const payload = {
       token: token,
+      database: database,
       macchina: $('#macchina').val(),
       autista: $('#autista').val(),
       date: $('#date').val(),

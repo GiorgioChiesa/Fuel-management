@@ -65,7 +65,7 @@ $(function(){
           url: API_URL,
           method: 'GET',
           //contentType: 'json',
-          data: { token: token, action: 'delete', id: r.id },
+          data: { token: token, action: 'delete', id: r.id , database: 'database' },
           success: function(resp){
             console.log('DELETE resp', resp);
             // if backend returns success, remove row, else show message
